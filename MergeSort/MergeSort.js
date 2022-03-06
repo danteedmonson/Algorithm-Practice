@@ -47,7 +47,9 @@ const merge = (arr, upper, lower, mid) => {
 
 }
 
-let arr = [7,1,43,8,345,6,23,9,45,5, 10 ,12, 5, 6, 7, 8,9];
+//let arr = [7,1,43,8,345,6,23,9,45,5, 10 ,12, 5, 6, 7, 8,9];
+let arr = [1,54,7,4,9,454,9,3,74,3,787,435,786,234,98,34]
+
 let upper = arr.length - 1;
 let lower = 0;
 mergeSort(arr, upper, lower);
